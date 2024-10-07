@@ -1,60 +1,98 @@
 
-## :one: Principes et évolutions d'Observable HQ
+## :one: Principes et évolutions d'Observable HQ {.smaller}
 
-- [**Notebooks**]{.orange} publics et partage de code sur [Observable](https://observablehq.com/@observablehq/introduction-to-notebooks)
+<br>
+
+- [**Notebooks**]{.orange} publics et partage de code sur [ObservableHQ](https://observablehq.com/@observablehq/introduction-to-notebooks)
+
+. . .
+
 - Execution [**JavaScript**]{.orange} [{{< fa brands js >}}]{style="color: #FFD43B;"}, avec une surcouche *Observable*
+
+. . .
+
 - Une évolution récente vers la [**mise en production**]{.orange} d'outils Observable :
     - [**Framework**]{.blue2} : générateur de site statique pour *dashboard* ou *reports*. [**Front**]{.green2} en JS permettant interactivité, et [**back**]{.green2} en n'importe quel language souhaité (R, python, Julia, Rust...)
    - [**Observable Cloud**]{.blue2} : plateforme pour déployer les différents sites Framework (privés ou publics)
 
 
-## :two: Site web statique vs dynamique
+## :two: Site web statique vs dynamique {.smaller}
+
+<br>
 
 - [**Statique**]{.orange} : Contenu fixe, identique pour tous
   - [**Avantages**]{.blue2} ✅: Chargement rapide, facile à développer et déployer
-  - [**Inconvénients**]{.blue2} ❌: Peu interactif
+  - [**Inconvénients**]{.blue2} ❌: Interactivité nécessite compréhension notions complexes
+
+. . .
 
 - [**Dynamique**]{.orange} : Contenu qui change selon les actions de l'utilisateur.
-  - [**Avantages**]{.blue2} ✅: Personnalisable, intéractif.
+  - [**Avantages**]{.blue2} ✅: Personnalisable, interactif.
   - [**Inconvénients**]{.blue2} ❌: Chargement plus lent, développement plus complexe, nécessite un serveur.
 
-🚀 Observable permet l'[**interactivité**]{.green2} sur un site statique ! 
+🚀 __Observable rend accessible plus simplement l'[**interactivité**]{.green2} sur un site statique !__ 
 
 
-## :three: Ecosystème déjà très riche
 
-- [Inputs](https://observablehq.com/documentation/inputs/overview) : à la base de l'intéractivité
+## :three: Un écosystème déjà très riche
+
+<br>
+
+- [Inputs](https://observablehq.com/documentation/inputs/overview) : à la base de l'interactivité
 - [DuckDB WASM](https://observablehq.com/framework/lib/duckdb) : optimise la requête et l'analyse des données
-- [Plot](https://observablehq.com/plot/getting-started) : Surcouche de la librairie D3.js pour réaliser simplement de beaux graphiques
+- [Plot](https://observablehq.com/plot/getting-started) : Surcouche de la librairie `D3.js` pour réaliser simplement de beaux graphiques
 
-## :four: Intégration à Quarto et Framework
+
+## :four: Intégration à `Quarto` et `Framework` {.smaller}
+
+<br>
 
 - Sites statiques avec [**Quarto**]{.orange} (alternatives à Shiny !):
     - [Challenge Nowcasting](https://inseefrlab.github.io/ESA-Nowcasting-2023/ppi.html){.blue2}
     - [Climb Tracker](https://linogaliana.github.io/climbtracker/around.html){.blue2}
+
+. . .
+
 - Tableau de bord avec [**Framework**]{.orange} :
     - [Surveillance codif APE](https://inseefrlab.github.io/framework-observable-test/){.blue2}
 
-- [**Intéractivité**]{.orange} dans les présentations : 
+. . .
+
+- [**Interactivité**]{.orange} dans les présentations : 
     - [Affichage de données](https://inseefrlab.github.io/codif-ape-prez/slides/inserm-echange/#/donn%C3%A9es-utilis%C3%A9es){.blue2}
     - [Appels à des API](https://inseefrlab.github.io/codif-ape-prez/slides/inserm-echange/#/exposer-un-mod%C3%A8le-via-une-api){.blue2}
 
 ## :four: Intégration à Quarto et Framework
 
 - [**Avantages**]{.orange} ✅:
-    - Résultats plutôt satisfaisants avec une intéractivité très réactive
+    - Résultats plutôt satisfaisants avec une interactivité très fluide et simple à définir
     - Intéressant pour promouvoir son travail et avoir l'écoute de son public
     - Relativement simple pour avoir un premier site minimaliste
 
 - [**Inconvénients**]{.orange} ❌:
-    - Pour aller plus loin, JS/css/html indispensables
+    - Pour aller plus loin, `JS/CSS/HTML` indispensables
 
 ## :five: Traitement de données volumineuses
+
+:::: {.columns}
+
+::: {.column width="70%"}
 
 - [Guide d’utilisation des données du recensement de la population au format Parquet](https://ssphub.netlify.app/post/parquetrp/)
     - 32 millions d'observations
 - Projet indices prix du logement [**Insee-SeLoger**]{.orange}
     - 36k communes
+
+:::
+
+::: {.column width="30%"}
+
+![](https://ssphub.netlify.app/post/parquetRP/ducks.png)
+
+:::
+
+
+::::
 
 ## :five: Traitement de données volumineuses
 
@@ -64,8 +102,8 @@
 
 - [**Inconvénients**]{.orange} ❌:
     - Optimisation et réactivité au coeur du développement
-    - Problématiques qui sortent du simple cadre d'Observable
-    - Pour un produit final satisfaisant, on sort pleinement du travail d'un data scientist
+    - Problématiques qui sortent du simple cadre d'`Observable`
+    - Pour un produit final satisfaisant, on sort pleinement du travail d'un _data scientist_
 
 ## :six: Documentation intéractive et pédagogie
 
@@ -83,15 +121,28 @@
 - [**Avantages**]{.orange} ✅:
     - Ergonomique et *self made*
 - [**Inconvénients**]{.orange} ❌:
-    - 100% JS [{{< fa brands js >}}]{style="color: #FFD43B;"}, pas sensé être notre travail
+    - 100% `JS` [{{< fa brands js >}}]{style="color: #FFD43B;"}, pas sensé être notre travail
 
 
 # Conclusion
 
-## Conclusion
+## Conclusion {.smaller}
 
-- Des prototypes très attractifs 
-- Premiers résultats obtenus à moindre coût
-- Coût d'entrée devient ensuite très élevé pour obtenir des produits beaux, ergonomiques et efficaces
-- Peut s'avérer utile pour la communication avec d'autres d'équipes
+
+- Des prototypes très attractifs ;
+
+. . .
+
+- Premiers résultats obtenus à moindre coût ;
+
+. . .
+
+- Coût d'entrée devient ensuite très élevé pour obtenir des produits beaux, ergonomiques et efficaces ;
+
+. . .
+
+- Peut s'avérer utile pour la communication avec d'autres d'équipes ;
+
+. . .
+
 - Compétences à la frontière avec notre travail
