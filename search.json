@@ -4,42 +4,42 @@
     "href": "slides/index.html#principes-et-évolutions-dobservable-hq",
     "title": "Retours sur Observable JS",
     "section": "1️⃣ Principes et évolutions d’Observable HQ",
-    "text": "1️⃣ Principes et évolutions d’Observable HQ\n\nNotebooks publics et partage de code sur Observable\nExecution JavaScript , avec une surcouche Observable\nUne évolution récente vers la mise en production d’outils Observable :\n\nFramework : générateur de site statique pour dashboard ou reports. Front en JS permettant interactivité, et back en n’importe quel language souhaité (R, python, Julia, Rust…)\nObservable Cloud : plateforme pour déployer les différents sites Framework (privés ou publics)"
+    "text": "1️⃣ Principes et évolutions d’Observable HQ\n\n\nNotebooks publics et partage de code sur ObservableHQ\n\n\n\nExecution JavaScript , avec une surcouche Observable\n\n\n\n\nUne évolution récente vers la mise en production d’outils Observable :\n\nFramework : générateur de site statique pour dashboard ou reports. Front en JS permettant interactivité, et back en n’importe quel language souhaité (R, python, Julia, Rust…)\nObservable Cloud : plateforme pour déployer les différents sites Framework (privés ou publics)"
   },
   {
     "objectID": "slides/index.html#site-web-statique-vs-dynamique",
     "href": "slides/index.html#site-web-statique-vs-dynamique",
     "title": "Retours sur Observable JS",
     "section": "2️⃣ Site web statique vs dynamique",
-    "text": "2️⃣ Site web statique vs dynamique\n\nStatique : Contenu fixe, identique pour tous\n\nAvantages ✅: Chargement rapide, facile à développer et déployer\nInconvénients ❌: Peu interactif\n\nDynamique : Contenu qui change selon les actions de l’utilisateur.\n\nAvantages ✅: Personnalisable, intéractif.\nInconvénients ❌: Chargement plus lent, développement plus complexe, nécessite un serveur.\n\n\n🚀 Observable permet l’interactivité sur un site statique !"
+    "text": "2️⃣ Site web statique vs dynamique\n\n\nStatique : Contenu fixe, identique pour tous\n\nAvantages ✅: Chargement rapide, facile à développer et déployer\nInconvénients ❌: Interactivité nécessite compréhension notions complexes\n\n\n\n\nDynamique : Contenu qui change selon les actions de l’utilisateur.\n\nAvantages ✅: Personnalisable, interactif.\nInconvénients ❌: Chargement plus lent, développement plus complexe, nécessite un serveur.\n\n\n🚀 Observable rend accessible plus simplement l’interactivité sur un site statique !"
   },
   {
-    "objectID": "slides/index.html#ecosystème-déjà-très-riche",
-    "href": "slides/index.html#ecosystème-déjà-très-riche",
+    "objectID": "slides/index.html#un-écosystème-déjà-très-riche",
+    "href": "slides/index.html#un-écosystème-déjà-très-riche",
     "title": "Retours sur Observable JS",
-    "section": "3️⃣ Ecosystème déjà très riche",
-    "text": "3️⃣ Ecosystème déjà très riche\n\nInputs : à la base de l’intéractivité\nDuckDB WASM : optimise la requête et l’analyse des données\nPlot : Surcouche de la librairie D3.js pour réaliser simplement de beaux graphiques"
+    "section": "3️⃣ Un écosystème déjà très riche",
+    "text": "3️⃣ Un écosystème déjà très riche\n\n\nInputs : à la base de l’interactivité\nDuckDB WASM : optimise la requête et l’analyse des données\nPlot : Surcouche de la librairie D3.js pour réaliser simplement de beaux graphiques"
   },
   {
     "objectID": "slides/index.html#intégration-à-quarto-et-framework",
     "href": "slides/index.html#intégration-à-quarto-et-framework",
     "title": "Retours sur Observable JS",
     "section": "4️⃣ Intégration à Quarto et Framework",
-    "text": "4️⃣ Intégration à Quarto et Framework\n\nSites statiques avec Quarto (alternatives à Shiny !):\n\nChallenge Nowcasting\nClimb Tracker\n\nTableau de bord avec Framework :\n\nSurveillance codif APE\n\nIntéractivité dans les présentations :\n\nAffichage de données\nAppels à des API"
+    "text": "4️⃣ Intégration à Quarto et Framework\n\n\nSites statiques avec Quarto (alternatives à Shiny !):\n\nChallenge Nowcasting\nClimb Tracker\n\n\n\n\nTableau de bord avec Framework :\n\nSurveillance codif APE\n\n\n\n\n\nInteractivité dans les présentations :\n\nAffichage de données\nAppels à des API"
   },
   {
     "objectID": "slides/index.html#intégration-à-quarto-et-framework-1",
     "href": "slides/index.html#intégration-à-quarto-et-framework-1",
     "title": "Retours sur Observable JS",
     "section": "4️⃣ Intégration à Quarto et Framework",
-    "text": "4️⃣ Intégration à Quarto et Framework\n\nAvantages ✅:\n\nRésultats plutôt satisfaisants avec une intéractivité très réactive\nIntéressant pour promouvoir son travail et avoir l’écoute de son public\nRelativement simple pour avoir un premier site minimaliste\n\nInconvénients ❌:\n\nPour aller plus loin, JS/css/html indispensables"
+    "text": "4️⃣ Intégration à Quarto et Framework\n\nAvantages ✅:\n\nRésultats plutôt satisfaisants avec une interactivité très fluide et simple à définir\nIntéressant pour promouvoir son travail et avoir l’écoute de son public\nRelativement simple pour avoir un premier site minimaliste\n\nInconvénients ❌:\n\nPour aller plus loin, JS/CSS/HTML indispensables"
   },
   {
     "objectID": "slides/index.html#traitement-de-données-volumineuses",
     "href": "slides/index.html#traitement-de-données-volumineuses",
     "title": "Retours sur Observable JS",
     "section": "5️⃣ Traitement de données volumineuses",
-    "text": "5️⃣ Traitement de données volumineuses\n\nGuide d’utilisation des données du recensement de la population au format Parquet\n\n32 millions d’observations\n\nProjet indices prix du logement Insee-SeLoger\n\n36k communes"
+    "text": "5️⃣ Traitement de données volumineuses\n\n\n\nGuide d’utilisation des données du recensement de la population au format Parquet\n\n32 millions d’observations\n\nProjet indices prix du logement Insee-SeLoger\n\n36k communes"
   },
   {
     "objectID": "slides/index.html#traitement-de-données-volumineuses-1",
@@ -67,6 +67,6 @@
     "href": "slides/index.html#conclusion-1",
     "title": "Retours sur Observable JS",
     "section": "Conclusion",
-    "text": "Conclusion\n\nDes prototypes très attractifs\nPremiers résultats obtenus à moindre coût\nCoût d’entrée devient ensuite très élevé pour obtenir des produits beaux, ergonomiques et efficaces\nPeut s’avérer utile pour la communication avec d’autres d’équipes\nCompétences à la frontière avec notre travail"
+    "text": "Conclusion\n\nDes prototypes très attractifs ;\n\n\n\nPremiers résultats obtenus à moindre coût ;\n\n\n\n\nCoût d’entrée devient ensuite très élevé pour obtenir des produits beaux, ergonomiques et efficaces ;\n\n\n\n\nPeut s’avérer utile pour la communication avec d’autres d’équipes ;\n\n\n\n\nCompétences à la frontière avec notre travail"
   }
 ]

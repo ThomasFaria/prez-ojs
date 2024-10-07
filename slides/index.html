@@ -340,78 +340,104 @@
 
   <p class="date"><strong>09/10/2024</strong></p>
 </section>
-<section id="principes-et-évolutions-dobservable-hq" class="slide level2" data-background-image="background.svg" data-background-size="contain">
+<section id="principes-et-évolutions-dobservable-hq" class="slide level2 smaller" data-background-image="background.svg" data-background-size="contain">
 <h2><span class="emoji" data-emoji="one">1️⃣</span> Principes et évolutions d’Observable HQ</h2>
+<p><br></p>
 <ul>
-<li><span class="orange"><strong>Notebooks</strong></span> publics et partage de code sur <a href="https://observablehq.com/@observablehq/introduction-to-notebooks">Observable</a></li>
+<li><span class="orange"><strong>Notebooks</strong></span> publics et partage de code sur <a href="https://observablehq.com/@observablehq/introduction-to-notebooks">ObservableHQ</a></li>
+</ul>
+<div class="fragment">
+<ul>
 <li>Execution <span class="orange"><strong>JavaScript</strong></span> <span style="color: #FFD43B;"><i class="fa-brands fa-js" aria-hidden="true"></i></span>, avec une surcouche <em>Observable</em></li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
 <li>Une évolution récente vers la <span class="orange"><strong>mise en production</strong></span> d’outils Observable :
 <ul>
 <li><span class="blue2"><strong>Framework</strong></span> : générateur de site statique pour <em>dashboard</em> ou <em>reports</em>. <span class="green2"><strong>Front</strong></span> en JS permettant interactivité, et <span class="green2"><strong>back</strong></span> en n’importe quel language souhaité (R, python, Julia, Rust…)</li>
 <li><span class="blue2"><strong>Observable Cloud</strong></span> : plateforme pour déployer les différents sites Framework (privés ou publics)</li>
 </ul></li>
 </ul>
+</div>
 </section>
-<section id="site-web-statique-vs-dynamique" class="slide level2" data-background-image="background.svg" data-background-size="contain">
+<section id="site-web-statique-vs-dynamique" class="slide level2 smaller" data-background-image="background.svg" data-background-size="contain">
 <h2><span class="emoji" data-emoji="two">2️⃣</span> Site web statique vs dynamique</h2>
+<p><br></p>
 <ul>
 <li><span class="orange"><strong>Statique</strong></span> : Contenu fixe, identique pour tous
 <ul>
 <li><span class="blue2"><strong>Avantages</strong></span> ✅: Chargement rapide, facile à développer et déployer</li>
-<li><span class="blue2"><strong>Inconvénients</strong></span> ❌: Peu interactif</li>
+<li><span class="blue2"><strong>Inconvénients</strong></span> ❌: Interactivité nécessite compréhension notions complexes</li>
 </ul></li>
+</ul>
+<div class="fragment">
+<ul>
 <li><span class="orange"><strong>Dynamique</strong></span> : Contenu qui change selon les actions de l’utilisateur.
 <ul>
-<li><span class="blue2"><strong>Avantages</strong></span> ✅: Personnalisable, intéractif.</li>
+<li><span class="blue2"><strong>Avantages</strong></span> ✅: Personnalisable, interactif.</li>
 <li><span class="blue2"><strong>Inconvénients</strong></span> ❌: Chargement plus lent, développement plus complexe, nécessite un serveur.</li>
 </ul></li>
 </ul>
-<p>🚀 Observable permet l’<span class="green2"><strong>interactivité</strong></span> sur un site statique !</p>
+<p>🚀 <strong>Observable rend accessible plus simplement l’<span class="green2"><strong>interactivité</strong></span> sur un site statique !</strong></p>
+</div>
 </section>
-<section id="ecosystème-déjà-très-riche" class="slide level2" data-background-image="background.svg" data-background-size="contain">
-<h2><span class="emoji" data-emoji="three">3️⃣</span> Ecosystème déjà très riche</h2>
+<section id="un-écosystème-déjà-très-riche" class="slide level2" data-background-image="background.svg" data-background-size="contain">
+<h2><span class="emoji" data-emoji="three">3️⃣</span> Un écosystème déjà très riche</h2>
+<p><br></p>
 <ul>
-<li><a href="https://observablehq.com/documentation/inputs/overview">Inputs</a> : à la base de l’intéractivité</li>
+<li><a href="https://observablehq.com/documentation/inputs/overview">Inputs</a> : à la base de l’interactivité</li>
 <li><a href="https://observablehq.com/framework/lib/duckdb">DuckDB WASM</a> : optimise la requête et l’analyse des données</li>
-<li><a href="https://observablehq.com/plot/getting-started">Plot</a> : Surcouche de la librairie D3.js pour réaliser simplement de beaux graphiques</li>
+<li><a href="https://observablehq.com/plot/getting-started">Plot</a> : Surcouche de la librairie <code>D3.js</code> pour réaliser simplement de beaux graphiques</li>
 </ul>
 </section>
-<section id="intégration-à-quarto-et-framework" class="slide level2" data-background-image="background.svg" data-background-size="contain">
-<h2><span class="emoji" data-emoji="four">4️⃣</span> Intégration à Quarto et Framework</h2>
+<section id="intégration-à-quarto-et-framework" class="slide level2 smaller" data-background-image="background.svg" data-background-size="contain">
+<h2><span class="emoji" data-emoji="four">4️⃣</span> Intégration à <code>Quarto</code> et <code>Framework</code></h2>
+<p><br></p>
 <ul>
 <li>Sites statiques avec <span class="orange"><strong>Quarto</strong></span> (alternatives à Shiny !):
 <ul>
 <li><a href="https://inseefrlab.github.io/ESA-Nowcasting-2023/ppi.html" class="blue2">Challenge Nowcasting</a></li>
 <li><a href="https://linogaliana.github.io/climbtracker/around.html" class="blue2">Climb Tracker</a></li>
 </ul></li>
+</ul>
+<div class="fragment">
+<ul>
 <li>Tableau de bord avec <span class="orange"><strong>Framework</strong></span> :
 <ul>
 <li><a href="https://inseefrlab.github.io/framework-observable-test/" class="blue2">Surveillance codif APE</a></li>
 </ul></li>
-<li><span class="orange"><strong>Intéractivité</strong></span> dans les présentations :
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li><span class="orange"><strong>Interactivité</strong></span> dans les présentations :
 <ul>
 <li><a href="https://inseefrlab.github.io/codif-ape-prez/slides/inserm-echange/#/donn%C3%A9es-utilis%C3%A9es" class="blue2">Affichage de données</a></li>
 <li><a href="https://inseefrlab.github.io/codif-ape-prez/slides/inserm-echange/#/exposer-un-mod%C3%A8le-via-une-api" class="blue2">Appels à des API</a></li>
 </ul></li>
 </ul>
+</div>
 </section>
 <section id="intégration-à-quarto-et-framework-1" class="slide level2" data-background-image="background.svg" data-background-size="contain">
 <h2><span class="emoji" data-emoji="four">4️⃣</span> Intégration à Quarto et Framework</h2>
 <ul>
 <li><span class="orange"><strong>Avantages</strong></span> ✅:
 <ul>
-<li>Résultats plutôt satisfaisants avec une intéractivité très réactive</li>
+<li>Résultats plutôt satisfaisants avec une interactivité très fluide et simple à définir</li>
 <li>Intéressant pour promouvoir son travail et avoir l’écoute de son public</li>
 <li>Relativement simple pour avoir un premier site minimaliste</li>
 </ul></li>
 <li><span class="orange"><strong>Inconvénients</strong></span> ❌:
 <ul>
-<li>Pour aller plus loin, JS/css/html indispensables</li>
+<li>Pour aller plus loin, <code>JS/CSS/HTML</code> indispensables</li>
 </ul></li>
 </ul>
 </section>
 <section id="traitement-de-données-volumineuses" class="slide level2" data-background-image="background.svg" data-background-size="contain">
 <h2><span class="emoji" data-emoji="five">5️⃣</span> Traitement de données volumineuses</h2>
+<div class="columns">
+<div class="column" style="width:70%;">
 <ul>
 <li><a href="https://ssphub.netlify.app/post/parquetrp/">Guide d’utilisation des données du recensement de la population au format Parquet</a>
 <ul>
@@ -422,6 +448,9 @@
 <li>36k communes</li>
 </ul></li>
 </ul>
+</div><div class="column" style="width:30%;">
+<p><img data-src="https://ssphub.netlify.app/post/parquetRP/ducks.png"></p>
+</div></div>
 </section>
 <section id="traitement-de-données-volumineuses-1" class="slide level2" data-background-image="background.svg" data-background-size="contain">
 <h2><span class="emoji" data-emoji="five">5️⃣</span> Traitement de données volumineuses</h2>
@@ -434,8 +463,8 @@
 <li><span class="orange"><strong>Inconvénients</strong></span> ❌:
 <ul>
 <li>Optimisation et réactivité au coeur du développement</li>
-<li>Problématiques qui sortent du simple cadre d’Observable</li>
-<li>Pour un produit final satisfaisant, on sort pleinement du travail d’un data scientist</li>
+<li>Problématiques qui sortent du simple cadre d’<code>Observable</code></li>
+<li>Pour un produit final satisfaisant, on sort pleinement du travail d’un <em>data scientist</em></li>
 </ul></li>
 </ul>
 </section>
@@ -464,7 +493,7 @@
 </ul></li>
 <li><span class="orange"><strong>Inconvénients</strong></span> ❌:
 <ul>
-<li>100% JS <span style="color: #FFD43B;"><i class="fa-brands fa-js" aria-hidden="true"></i></span>, pas sensé être notre travail</li>
+<li>100% <code>JS</code> <span style="color: #FFD43B;"><i class="fa-brands fa-js" aria-hidden="true"></i></span>, pas sensé être notre travail</li>
 </ul></li>
 </ul>
 </section>
@@ -473,19 +502,35 @@
 <h1>Conclusion</h1>
 
 </section>
-<section id="conclusion-1" class="slide level2" data-background-image="background.svg" data-background-size="contain">
+<section id="conclusion-1" class="slide level2 smaller" data-background-image="background.svg" data-background-size="contain">
 <h2>Conclusion</h2>
 <ul>
-<li>Des prototypes très attractifs</li>
-<li>Premiers résultats obtenus à moindre coût</li>
-<li>Coût d’entrée devient ensuite très élevé pour obtenir des produits beaux, ergonomiques et efficaces</li>
-<li>Peut s’avérer utile pour la communication avec d’autres d’équipes</li>
+<li>Des prototypes très attractifs ;</li>
+</ul>
+<div class="fragment">
+<ul>
+<li>Premiers résultats obtenus à moindre coût ;</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Coût d’entrée devient ensuite très élevé pour obtenir des produits beaux, ergonomiques et efficaces ;</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Peut s’avérer utile pour la communication avec d’autres d’équipes ;</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
 <li>Compétences à la frontière avec notre travail</li>
 </ul>
 
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 
+</div>
 </div>
 </div>
 </section></section>
