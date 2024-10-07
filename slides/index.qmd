@@ -1,2 +1,97 @@
 
-## Retours sur observable JS
+## :one: Principes et évolutions d'Observable HQ
+
+- Notebooks publics et partage de code sur [Observable](https://observablehq.com/@observablehq/introduction-to-notebooks)
+- Execution JavaScript, avec une surcouche *Observable*
+- Une évolution récente vers la mise en production d'outils Observable :
+    - Framework : générateur de site statique pour *dashboard*, *reports*, etc. Front en JS permettant interactivité, et back en n'importe quel language souhaité (R, python, Julia, Rust...)
+   - Observable Cloud : plateforme pour déployer les différents sites Framework (privés ou publics)
+
+
+## :two: Site Web Statique vs Dynamique
+
+- **Statique** : Contenu fixe, identique pour tous
+  - **Avantages** : Chargement rapide, facile à développer et déployer
+  - **Inconvénients** : Peu interactif
+
+- **Dynamique** : Contenu qui change selon les actions de l'utilisateur.
+  - **Avantages** : Personnalisable, intéractif.
+  - **Inconvénients** : Chargement plus lent, développement plus complexe, nécessite un serveur.
+
+🚀 Observable permet l'interactivité sur un site statique ! 
+
+
+## :three: Ecosystème déjà très riche
+
+- [Inputs](https://observablehq.com/documentation/inputs/overview) : à la base de l'intéractivité
+- [DuckDB WASM](https://observablehq.com/framework/lib/duckdb) : optimise la requête et l'analyse des données
+- [Plot](https://observablehq.com/plot/getting-started) : Surcouche de la librairie D3.js pour réaliser simplement de beaux graphiques
+
+## :four: Intégration à Quarto et Framework
+
+- Site statiques avec Quarto (alternatives à Shiny !):
+    - [Challenge Nowcasting](https://inseefrlab.github.io/ESA-Nowcasting-2023/ppi.html)
+    - [Climb Tracker](https://linogaliana.github.io/climbtracker/around.html)
+- Tableau de bord avec Framework :
+    - [Surveillance codif APE](https://inseefrlab.github.io/framework-observable-test/)
+
+- Intéractivité dans les présentations : 
+    - [Affichage de données](https://inseefrlab.github.io/codif-ape-prez/slides/inserm-echange/#/donn%C3%A9es-utilis%C3%A9es)
+    - [Appels à des API](https://inseefrlab.github.io/codif-ape-prez/slides/inserm-echange/#/exposer-un-mod%C3%A8le-via-une-api)
+
+## :four: Intégration à Quarto et Framework
+
+- Avantages :
+    - Résultats plutôt satisfaisant avec une intéractivité très réactive
+    - Intéressants pour promouvoir son travail et avoir l'écoute de son public
+    - Relativement simple pour avoir un premier site minimaliste
+
+- Incovénients :
+    - Pour aller plus loin, JS/css/html indispensables
+
+## :five: Traitement de données volumineuses
+
+- [Guide d’utilisation des données du recensement de la population au format Parquet](https://ssphub.netlify.app/post/parquetrp/)
+    - 32 Millions d'observations
+- Projet indices prix du logement Insee-SeLoger
+    - 36k communes
+
+## :five: Traitement de données volumineuses
+
+- Avantages :
+    - Diffusion facilitée 
+    - Coût pour réaliser un prototype *relativement* faible
+
+- Incovénients :
+    - Optimisation et réactivité au coeur du développement
+    - Problématiques qui sortent du simple cadre d'observable
+    - Pour un produit final satisfaisant, on sort pleinement du travail d'un data scientist
+
+## :six: Documentation intéractive et pédagogie
+
+- L'interactivité facilite la pédagogie et rend plus digeste les documentations
+    - [Cartiflette](https://inseefrlab.github.io/cartiflette-website/)
+    - [TopoHelper](https://observablehq.com/@tombor/topohelper-docs)
+    - [Quizz](https://pythonds.linogaliana.fr/content/git/introgit.html#le-fichier-.gitignore)
+
+## :six: Applicatif web léger
+
+- Campagne d'annotation avec Observable : 
+    - [Copain](https://ssplab.pages.lab.sspcloud.fr/experimentation-bdf/copain/)
+    - [RESIL](https://linogaliana.gitlab-pages.insee.fr/serverless-annotation-tool/pairs.html)
+
+- Avantages :
+    - Ergonomique et *self made*
+- Incovénients :
+    - Full JS, pas sensé être notre travail
+
+
+# Conclusion
+
+## Conclusion
+
+- Des prototypes très attractifs 
+- Premiers résultats obtenus à moindre coût
+- Coût d'entrée devient ensuite très élevé pour obtenir des produits beaux, ergonomiques et efficaces
+- Peut s'avérer utile pour la communication avec d'autres d'équipes
+- Compétences à la frontière avec notre travail

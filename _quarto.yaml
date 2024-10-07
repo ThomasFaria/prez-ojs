@@ -25,7 +25,7 @@ format:
   onyxia-revealjs:
   #onyxia-dark-revealjs:
     output-file: index.html
-    incremental: true
+    incremental: false
 controls: true
 css: custom.css
 from: markdown+emoji
