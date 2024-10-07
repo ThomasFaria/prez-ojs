@@ -7,7 +7,9 @@
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.5.57">
 
   <meta name="dcterms.date" content="2024-09-10">
@@ -341,30 +343,30 @@
 <section id="principes-et-évolutions-dobservable-hq" class="slide level2" data-background-image="background.svg" data-background-size="contain">
 <h2><span class="emoji" data-emoji="one">1️⃣</span> Principes et évolutions d’Observable HQ</h2>
 <ul>
-<li>Notebooks publics et partage de code sur <a href="https://observablehq.com/@observablehq/introduction-to-notebooks">Observable</a></li>
-<li>Execution JavaScript, avec une surcouche <em>Observable</em></li>
-<li>Une évolution récente vers la mise en production d’outils Observable :
+<li><span class="orange"><strong>Notebooks</strong></span> publics et partage de code sur <a href="https://observablehq.com/@observablehq/introduction-to-notebooks">Observable</a></li>
+<li>Execution <span class="orange"><strong>JavaScript</strong></span> <span style="color: #FFD43B;"><i class="fa-brands fa-js" aria-hidden="true"></i></span>, avec une surcouche <em>Observable</em></li>
+<li>Une évolution récente vers la <span class="orange"><strong>mise en production</strong></span> d’outils Observable :
 <ul>
-<li>Framework : générateur de site statique pour <em>dashboard</em>, <em>reports</em>, etc. Front en JS permettant interactivité, et back en n’importe quel language souhaité (R, python, Julia, Rust…)</li>
-<li>Observable Cloud : plateforme pour déployer les différents sites Framework (privés ou publics)</li>
+<li><span class="blue2"><strong>Framework</strong></span> : générateur de site statique pour <em>dashboard</em> ou <em>reports</em>. <span class="green2"><strong>Front</strong></span> en JS permettant interactivité, et <span class="green2"><strong>back</strong></span> en n’importe quel language souhaité (R, python, Julia, Rust…)</li>
+<li><span class="blue2"><strong>Observable Cloud</strong></span> : plateforme pour déployer les différents sites Framework (privés ou publics)</li>
 </ul></li>
 </ul>
 </section>
 <section id="site-web-statique-vs-dynamique" class="slide level2" data-background-image="background.svg" data-background-size="contain">
-<h2><span class="emoji" data-emoji="two">2️⃣</span> Site Web Statique vs Dynamique</h2>
+<h2><span class="emoji" data-emoji="two">2️⃣</span> Site web statique vs dynamique</h2>
 <ul>
-<li><strong>Statique</strong> : Contenu fixe, identique pour tous
+<li><span class="orange"><strong>Statique</strong></span> : Contenu fixe, identique pour tous
 <ul>
-<li><strong>Avantages</strong> : Chargement rapide, facile à développer et déployer</li>
-<li><strong>Inconvénients</strong> : Peu interactif</li>
+<li><span class="blue2"><strong>Avantages</strong></span> ✅: Chargement rapide, facile à développer et déployer</li>
+<li><span class="blue2"><strong>Inconvénients</strong></span> ❌: Peu interactif</li>
 </ul></li>
-<li><strong>Dynamique</strong> : Contenu qui change selon les actions de l’utilisateur.
+<li><span class="orange"><strong>Dynamique</strong></span> : Contenu qui change selon les actions de l’utilisateur.
 <ul>
-<li><strong>Avantages</strong> : Personnalisable, intéractif.</li>
-<li><strong>Inconvénients</strong> : Chargement plus lent, développement plus complexe, nécessite un serveur.</li>
+<li><span class="blue2"><strong>Avantages</strong></span> ✅: Personnalisable, intéractif.</li>
+<li><span class="blue2"><strong>Inconvénients</strong></span> ❌: Chargement plus lent, développement plus complexe, nécessite un serveur.</li>
 </ul></li>
 </ul>
-<p>🚀 Observable permet l’interactivité sur un site statique !</p>
+<p>🚀 Observable permet l’<span class="green2"><strong>interactivité</strong></span> sur un site statique !</p>
 </section>
 <section id="ecosystème-déjà-très-riche" class="slide level2" data-background-image="background.svg" data-background-size="contain">
 <h2><span class="emoji" data-emoji="three">3️⃣</span> Ecosystème déjà très riche</h2>
@@ -377,32 +379,32 @@
 <section id="intégration-à-quarto-et-framework" class="slide level2" data-background-image="background.svg" data-background-size="contain">
 <h2><span class="emoji" data-emoji="four">4️⃣</span> Intégration à Quarto et Framework</h2>
 <ul>
-<li>Site statiques avec Quarto (alternatives à Shiny !):
+<li>Sites statiques avec <span class="orange"><strong>Quarto</strong></span> (alternatives à Shiny !):
 <ul>
-<li><a href="https://inseefrlab.github.io/ESA-Nowcasting-2023/ppi.html">Challenge Nowcasting</a></li>
-<li><a href="https://linogaliana.github.io/climbtracker/around.html">Climb Tracker</a></li>
+<li><a href="https://inseefrlab.github.io/ESA-Nowcasting-2023/ppi.html" class="blue2">Challenge Nowcasting</a></li>
+<li><a href="https://linogaliana.github.io/climbtracker/around.html" class="blue2">Climb Tracker</a></li>
 </ul></li>
-<li>Tableau de bord avec Framework :
+<li>Tableau de bord avec <span class="orange"><strong>Framework</strong></span> :
 <ul>
-<li><a href="https://inseefrlab.github.io/framework-observable-test/">Surveillance codif APE</a></li>
+<li><a href="https://inseefrlab.github.io/framework-observable-test/" class="blue2">Surveillance codif APE</a></li>
 </ul></li>
-<li>Intéractivité dans les présentations :
+<li><span class="orange"><strong>Intéractivité</strong></span> dans les présentations :
 <ul>
-<li><a href="https://inseefrlab.github.io/codif-ape-prez/slides/inserm-echange/#/donn%C3%A9es-utilis%C3%A9es">Affichage de données</a></li>
-<li><a href="https://inseefrlab.github.io/codif-ape-prez/slides/inserm-echange/#/exposer-un-mod%C3%A8le-via-une-api">Appels à des API</a></li>
+<li><a href="https://inseefrlab.github.io/codif-ape-prez/slides/inserm-echange/#/donn%C3%A9es-utilis%C3%A9es" class="blue2">Affichage de données</a></li>
+<li><a href="https://inseefrlab.github.io/codif-ape-prez/slides/inserm-echange/#/exposer-un-mod%C3%A8le-via-une-api" class="blue2">Appels à des API</a></li>
 </ul></li>
 </ul>
 </section>
 <section id="intégration-à-quarto-et-framework-1" class="slide level2" data-background-image="background.svg" data-background-size="contain">
 <h2><span class="emoji" data-emoji="four">4️⃣</span> Intégration à Quarto et Framework</h2>
 <ul>
-<li>Avantages :
+<li><span class="orange"><strong>Avantages</strong></span> ✅:
 <ul>
-<li>Résultats plutôt satisfaisant avec une intéractivité très réactive</li>
-<li>Intéressants pour promouvoir son travail et avoir l’écoute de son public</li>
+<li>Résultats plutôt satisfaisants avec une intéractivité très réactive</li>
+<li>Intéressant pour promouvoir son travail et avoir l’écoute de son public</li>
 <li>Relativement simple pour avoir un premier site minimaliste</li>
 </ul></li>
-<li>Incovénients :
+<li><span class="orange"><strong>Inconvénients</strong></span> ❌:
 <ul>
 <li>Pour aller plus loin, JS/css/html indispensables</li>
 </ul></li>
@@ -413,9 +415,9 @@
 <ul>
 <li><a href="https://ssphub.netlify.app/post/parquetrp/">Guide d’utilisation des données du recensement de la population au format Parquet</a>
 <ul>
-<li>32 Millions d’observations</li>
+<li>32 millions d’observations</li>
 </ul></li>
-<li>Projet indices prix du logement Insee-SeLoger
+<li>Projet indices prix du logement <span class="orange"><strong>Insee-SeLoger</strong></span>
 <ul>
 <li>36k communes</li>
 </ul></li>
@@ -424,15 +426,15 @@
 <section id="traitement-de-données-volumineuses-1" class="slide level2" data-background-image="background.svg" data-background-size="contain">
 <h2><span class="emoji" data-emoji="five">5️⃣</span> Traitement de données volumineuses</h2>
 <ul>
-<li>Avantages :
+<li><span class="orange"><strong>Avantages</strong></span> ✅:
 <ul>
-<li>Diffusion facilitée</li>
-<li>Coût pour réaliser un prototype <em>relativement</em> faible</li>
+<li><span class="blue2"><strong>Diffusion</strong></span> facilitée</li>
+<li>Coût pour réaliser un <span class="blue2"><strong>prototype</strong></span> <em>relativement</em> faible</li>
 </ul></li>
-<li>Incovénients :
+<li><span class="orange"><strong>Inconvénients</strong></span> ❌:
 <ul>
 <li>Optimisation et réactivité au coeur du développement</li>
-<li>Problématiques qui sortent du simple cadre d’observable</li>
+<li>Problématiques qui sortent du simple cadre d’Observable</li>
 <li>Pour un produit final satisfaisant, on sort pleinement du travail d’un data scientist</li>
 </ul></li>
 </ul>
@@ -440,29 +442,29 @@
 <section id="documentation-intéractive-et-pédagogie" class="slide level2" data-background-image="background.svg" data-background-size="contain">
 <h2><span class="emoji" data-emoji="six">6️⃣</span> Documentation intéractive et pédagogie</h2>
 <ul>
-<li>L’interactivité facilite la pédagogie et rend plus digeste les documentations
+<li>L’<span class="orange"><strong>interactivité</strong></span> facilite la pédagogie et rend plus digeste les documentations
 <ul>
-<li><a href="https://inseefrlab.github.io/cartiflette-website/">Cartiflette</a></li>
-<li><a href="https://observablehq.com/@tombor/topohelper-docs">TopoHelper</a></li>
-<li><a href="https://pythonds.linogaliana.fr/content/git/introgit.html#le-fichier-.gitignore">Quizz</a></li>
+<li><a href="https://inseefrlab.github.io/cartiflette-website/" class="blue2">Cartiflette</a></li>
+<li><a href="https://observablehq.com/@tombor/topohelper-docs" class="blue2">TopoHelper</a></li>
+<li><a href="https://pythonds.linogaliana.fr/content/git/introgit.html#le-fichier-.gitignore" class="blue2">Quizz</a></li>
 </ul></li>
 </ul>
 </section>
 <section id="applicatif-web-léger" class="slide level2" data-background-image="background.svg" data-background-size="contain">
 <h2><span class="emoji" data-emoji="six">6️⃣</span> Applicatif web léger</h2>
 <ul>
-<li>Campagne d’annotation avec Observable :
+<li><span class="orange"><strong>Campagne d’annotation</strong></span> avec Observable :
 <ul>
-<li><a href="https://ssplab.pages.lab.sspcloud.fr/experimentation-bdf/copain/">Copain</a></li>
-<li><a href="https://linogaliana.gitlab-pages.insee.fr/serverless-annotation-tool/pairs.html">RESIL</a></li>
+<li><a href="https://ssplab.pages.lab.sspcloud.fr/experimentation-bdf/copain/" class="blue2">Copain</a></li>
+<li><a href="https://linogaliana.gitlab-pages.insee.fr/serverless-annotation-tool/pairs.html" class="blue2">RESIL</a></li>
 </ul></li>
-<li>Avantages :
+<li><span class="orange"><strong>Avantages</strong></span> ✅:
 <ul>
 <li>Ergonomique et <em>self made</em></li>
 </ul></li>
-<li>Incovénients :
+<li><span class="orange"><strong>Inconvénients</strong></span> ❌:
 <ul>
-<li>Full JS, pas sensé être notre travail</li>
+<li>100% JS <span style="color: #FFD43B;"><i class="fa-brands fa-js" aria-hidden="true"></i></span>, pas sensé être notre travail</li>
 </ul></li>
 </ul>
 </section>
