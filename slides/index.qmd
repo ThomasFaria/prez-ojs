@@ -7,12 +7,12 @@
 
 . . .
 
-- Execution [**JavaScript**]{.orange} [{{< fa brands js >}}]{style="color: #FFD43B;"}, avec une surcouche *Observable*
+- Exécution [**JavaScript**]{.orange} [{{< fa brands js >}}]{style="color: #FFD43B;"}, avec une surcouche *Observable*
 
 . . .
 
 - Une évolution récente vers la [**mise en production**]{.orange} d'outils Observable :
-    - [**Framework**]{.blue2} : générateur de site statique pour *dashboard* ou *reports*. [**Front**]{.green2} en JS permettant interactivité, et [**back**]{.green2} en n'importe quel language souhaité (R, python, Julia, Rust...)
+    - [**Framework**]{.blue2} : générateur de sites statiques pour *dashboard* ou *reports*. [**Front**]{.green2} en JS permettant interactivité, et [**back**]{.green2} en n'importe quel language souhaité (R, python, Julia, Rust...)
    - [**Observable Cloud**]{.blue2} : plateforme pour déployer les différents sites Framework (privés ou publics)
 
 
@@ -22,13 +22,13 @@
 
 - [**Statique**]{.orange} : Contenu fixe, identique pour tous
   - [**Avantages**]{.blue2} ✅: Chargement rapide, facile à développer et déployer
-  - [**Inconvénients**]{.blue2} ❌: Interactivité nécessite compréhension notions complexes
+  - [**Inconvénients**]{.blue2} ❌: Interactivité nécessite compréhension de notions complexes
 
 . . .
 
-- [**Dynamique**]{.orange} : Contenu qui change selon les actions de l'utilisateur.
-  - [**Avantages**]{.blue2} ✅: Personnalisable, interactif.
-  - [**Inconvénients**]{.blue2} ❌: Chargement plus lent, développement plus complexe, nécessite un serveur.
+- [**Dynamique**]{.orange} : Contenu qui change selon les actions de l'utilisateur
+  - [**Avantages**]{.blue2} ✅: Personnalisable, interactif
+  - [**Inconvénients**]{.blue2} ❌: Chargement plus lent, développement plus complexe, nécessite un serveur
 
 🚀 __Observable rend accessible plus simplement l'[**interactivité**]{.green2} sur un site statique !__ 
 
@@ -129,19 +129,19 @@
 ## Conclusion {.smaller}
 
 
-- Des prototypes très attractifs ;
+- Des prototypes très [**attractifs**]{.orange} ;
 
 . . .
 
-- Premiers résultats obtenus à moindre coût ;
+- Premiers résultats obtenus à [**moindre coût**]{.orange} ;
 
 . . .
 
-- Coût d'entrée devient ensuite très élevé pour obtenir des produits beaux, ergonomiques et efficaces ;
+- [**Coût d'entrée**]{.orange} devient ensuite très élevé pour obtenir des produits beaux, ergonomiques et efficaces ;
 
 . . .
 
-- Peut s'avérer utile pour la communication avec d'autres d'équipes ;
+- Peut s'avérer utile pour la [**communication**]{.orange} avec d'autres d'équipes ;
 
 . . .
 
