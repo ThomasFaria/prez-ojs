@@ -4,14 +4,14 @@
     "href": "slides/index.html#principes-et-évolutions-dobservable-hq",
     "title": "Retours sur Observable JS",
     "section": "1️⃣ Principes et évolutions d’Observable HQ",
-    "text": "1️⃣ Principes et évolutions d’Observable HQ\n\n\nNotebooks publics et partage de code sur ObservableHQ\n\n\n\nExecution JavaScript , avec une surcouche Observable\n\n\n\n\nUne évolution récente vers la mise en production d’outils Observable :\n\nFramework : générateur de site statique pour dashboard ou reports. Front en JS permettant interactivité, et back en n’importe quel language souhaité (R, python, Julia, Rust…)\nObservable Cloud : plateforme pour déployer les différents sites Framework (privés ou publics)"
+    "text": "1️⃣ Principes et évolutions d’Observable HQ\n\n\nNotebooks publics et partage de code sur ObservableHQ\n\n\n\nExécution JavaScript , avec une surcouche Observable\n\n\n\n\nUne évolution récente vers la mise en production d’outils Observable :\n\nFramework : générateur de sites statiques pour dashboard ou reports. Front en JS permettant interactivité, et back en n’importe quel language souhaité (R, python, Julia, Rust…)\nObservable Cloud : plateforme pour déployer les différents sites Framework (privés ou publics)"
   },
   {
     "objectID": "slides/index.html#site-web-statique-vs-dynamique",
     "href": "slides/index.html#site-web-statique-vs-dynamique",
     "title": "Retours sur Observable JS",
     "section": "2️⃣ Site web statique vs dynamique",
-    "text": "2️⃣ Site web statique vs dynamique\n\n\nStatique : Contenu fixe, identique pour tous\n\nAvantages ✅: Chargement rapide, facile à développer et déployer\nInconvénients ❌: Interactivité nécessite compréhension notions complexes\n\n\n\n\nDynamique : Contenu qui change selon les actions de l’utilisateur.\n\nAvantages ✅: Personnalisable, interactif.\nInconvénients ❌: Chargement plus lent, développement plus complexe, nécessite un serveur.\n\n\n🚀 Observable rend accessible plus simplement l’interactivité sur un site statique !"
+    "text": "2️⃣ Site web statique vs dynamique\n\n\nStatique : Contenu fixe, identique pour tous\n\nAvantages ✅: Chargement rapide, facile à développer et déployer\nInconvénients ❌: Interactivité nécessite compréhension de notions complexes\n\n\n\n\nDynamique : Contenu qui change selon les actions de l’utilisateur\n\nAvantages ✅: Personnalisable, interactif\nInconvénients ❌: Chargement plus lent, développement plus complexe, nécessite un serveur\n\n\n🚀 Observable rend accessible plus simplement l’interactivité sur un site statique !"
   },
   {
     "objectID": "slides/index.html#un-écosystème-déjà-très-riche",
